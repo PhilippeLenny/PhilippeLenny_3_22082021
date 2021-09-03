@@ -81,16 +81,14 @@
     }
 
     .food-choose{
-        border: 2px solid white;
         background-color: white;
         border-radius: 10px;
         margin-bottom: 20px;
         margin-left: 10px;
-        margin-right: 10px;
         box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35); 
         box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35);
         cursor: pointer;
-        
+        display: flex;
     }
 
     .food-choose-animation{
@@ -109,8 +107,12 @@
         animation: slideDown 2s;
     }
 
+    .menu-description{
+        flex-direction: column;
+    }
+
     .food-name{
-        margin-top: 8px;
+        margin-top: 11px;
         margin-bottom: 6px;
         margin-left: 10px;
         margin-right: 10px;
@@ -121,7 +123,7 @@
     }
 
     .descriptif-plat{
-        margin-bottom: 8px;
+        margin-bottom: 11px;
         margin-left: 10px;
         margin-right: 10px;
         white-space: nowrap;
@@ -133,11 +135,24 @@
         font-weight: bold;
         margin-top: 1px;
         margin-right: 10px;
+        align-self: flex-end;
+        margin-bottom: 10px;
     }
 
     .price-adjustement{
         display: flex;
         justify-content: space-between;
+    }
+
+    .check{
+        color: white;
+        background-color: rgb(104, 194, 149);
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 22px 18px 22px;
+        border-radius: 0px 10px 10px 0px;
     }
 
     .command-button-box{
