@@ -225,7 +225,7 @@
     .heart-full-base{
         font-size: 26px;
         cursor: pointer;
-        color: transparent;
+        color: black;
         transition: color 180ms;
     }
 

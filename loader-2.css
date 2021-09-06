@@ -1,0 +1,38 @@
+.loader {
+    font-family: shrikhand;
+    font-size: 35px;
+    animation: neon 1.5s infinite alternate;
+}
+
+.loader::after {
+    content: '\2026';
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    animation: points steps(4, end) 1.50s infinite;
+    width: 0px;
+}
+
+@keyframes points {
+    to {
+        width: 1em;
+    }
+}
+
+@keyframes neon {
+	0% { 
+        color: black; 
+        text-shadow: none;
+    }
+	
+
+    100% {
+        color: black;
+        text-shadow: 0 0 10px #FF79DA,
+        0 0 20px #FF79DA,
+        0 0 40px #FF79DA, 
+        0 0 80px #FF79DA,
+        0 0 160px #FF79DA;
+
+    }
+}

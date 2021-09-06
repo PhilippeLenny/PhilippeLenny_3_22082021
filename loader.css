@@ -1,0 +1,33 @@
+.loader {
+    font-family: shrikhand;
+    font-size: 35px;
+    animation: color-change 3s infinite alternate;
+}
+
+.loader::after {
+    content: '\2026';
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    animation: points steps(4, end) 1.50s infinite;
+    width: 0px;
+}
+
+@keyframes points {
+    to {
+        width: 1em;
+    }
+}
+
+@keyframes color-change {
+	0% { 
+        color: #9356DC; 
+    }
+	50% { 
+        color: #FF79DA; 
+    }
+
+    100% {
+        color: #99E2D0;
+    }
+}
