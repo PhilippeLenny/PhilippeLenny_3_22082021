@@ -26,10 +26,10 @@
 }
 
 @keyframes color-change {
-	0% { 
+    0% { 
         color: #9356DC; 
     }
-	50% { 
+    50% { 
         color: #FF79DA; 
     }
 
