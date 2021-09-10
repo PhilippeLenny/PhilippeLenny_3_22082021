@@ -2,6 +2,12 @@
     font-family: shrikhand;
     font-size: 35px;
     animation: color-change 3s infinite alternate;
+    z-index: 1;
+    background-color: white;
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
 }
 
 .loader::after {

@@ -16,7 +16,9 @@
         z-index: 1;
         width: 100%;
         height: 100%;
-        background: black;
+        background-color: white;
+        position: absolute;
+        color: black;
     }
 
     .logo-ohmyfood-top{
