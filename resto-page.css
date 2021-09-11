@@ -60,6 +60,7 @@
     .all-annonce{
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
 
     .heart-logo{
@@ -162,7 +163,7 @@
         align-items: center;
         border-radius: 0px 10px 10px 0px;
         width: 65px;
-        margin-right: -55px;
+        margin-right: -65px;
     }
 
     .command-button-box{
