@@ -199,6 +199,7 @@
         margin-bottom: 20px;
         box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35);
         border-radius: 20px 20px 20px 20px;
+        position: relative;
     }
 
     .image-restaurant{
@@ -240,20 +241,18 @@
         margin-top: 8px;
     }
 
-    .heart-full-base{
+    .heart-full{
         font-size: 26px;
         cursor: pointer;
-        color: black;
-        transition: color 180ms;
-    }
-
-    .heart-full{
+        color: transparent;
+        transition: color 0.250s;
         position: absolute;
-        right: 34px;
+        right: 19px;
         margin-top: 7px;
     }
 
-    .heart-full:hover, .heart-full-2:hover, .heart-full-3:hover, .heart-full-4:hover{
+
+    .heart-full:hover{
         color: #9356DC;
     }
 
@@ -267,14 +266,14 @@
 
     .new-location{
         position: absolute;
-        bottom: 195px;
-        right: 25px;
+        bottom: 185px;
+        right: 22px;
     }
 
     .new-location-2{
         position: absolute;
-        bottom: -53px;
-        right: 25px;
+        bottom: 185px;
+        right: 22px;
     }
 
     .footer-box{
@@ -344,26 +343,6 @@
         .restaurant-box{
             width: 45%;
             margin: 10px;
-        }
-
-        .new-location{
-            left: 65px;
-            bottom: 390px;
-        }
-
-        .new-location-2{
-            right: 65px;
-            bottom: 390px;
-        }
-
-        .heart-full{
-            position: absolute;
-            right: 58px;
-            margin-top: 7px;
-        }
-
-        .heart-full-plus{
-            left: 438px;
         }
     }
 

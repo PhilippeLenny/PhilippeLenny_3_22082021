@@ -69,12 +69,12 @@
     }
 
     .heart-full{
-        font-size: 23px;
+        font-size: 25px;
         cursor: pointer;
         color: transparent;
         position: absolute;
-        right: 28px;
-        top: 480px;
+        right: 29px;
+        top: 29px;
         transition: color 200ms;
     }
 
@@ -164,6 +164,17 @@
         border-radius: 0px 10px 10px 0px;
         width: 65px;
         margin-right: -65px;
+        animation: slideleft 2s;
+    }
+
+    .all-annonce:hover, .check:hover{
+        animation: slideleft 2s;
+    }
+
+    @keyframes slideleft{
+        100% {
+            transform: translateX(-60px)
+        }
     }
 
     .command-button-box{
