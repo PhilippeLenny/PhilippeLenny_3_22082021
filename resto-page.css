@@ -45,7 +45,7 @@
         display: flex;
         justify-content: space-between;
         position: relative;
-        bottom: 50px;
+        bottom: 43px;
         z-index: 1;
         background-color: #dbdbdb;
         padding-top: 30px;
@@ -89,6 +89,10 @@
         margin-bottom: 15px;
     }
 
+    .categorie-box{
+        margin-bottom: 40px;
+    }
+
     .food-choose{
         background-color: white;
         border-radius: 10px;
@@ -102,19 +106,32 @@
     }
 
     .food-choose-animation{
-        animation: slideDown .8s;
+        animation: slideDown 1s;
     }
 
     .food-choose-slow{
-        animation: slideDown 1.2s;
-    }
-
-    .food-choose-more-slow{
         animation: slideDown 1.6s;
     }
 
+    .food-choose-more-slow{
+        animation: slideDown 2.2s;
+    }
+
     .food-choose-really-slow{
-        animation: slideDown 2s;
+        animation: slideDown 2.8s;
+    }
+
+    @keyframes slideDown {
+        0% {
+            transform: translateY(30px);
+            opacity: 0;
+        }
+        65% {
+            opacity: 1;
+        }
+        100% {
+            transform: translateY(0);
+        }
     }
 
     .menu-description{
@@ -164,16 +181,21 @@
         border-radius: 0px 10px 10px 0px;
         width: 65px;
         margin-right: -65px;
-        animation: slideleft 2s;
+        transition: margin 1.45s;
     }
 
-    .all-annonce:hover, .check:hover{
-        animation: slideleft 2s;
+    .food-choose:hover .check
+    {
+        margin-right: 0;
     }
 
-    @keyframes slideleft{
+    .food-choose:hover .check i{
+        animation: spinlogo 1.60s;
+    }
+
+    @keyframes spinlogo{
         100% {
-            transform: translateX(-60px)
+            transform: rotate(360deg)
         }
     }
 
@@ -233,17 +255,9 @@
         margin-bottom: 12px;
     }
 
-    @keyframes slideDown {
-        0% {
-            transform: translateY(15px);
-            opacity: 0;
-        }
-        65% {
-            opacity: 1;
-        }
-        100% {
-            transform: translateY(0);
-        }
+    .contact-mail-color{
+        text-decoration: none;
+        color: white;
     }
 
     @media screen and (min-width: 1024px)
@@ -265,6 +279,7 @@
 
         .categorie-box{
             width: 30%;
+            margin-bottom: 0px;
         }
 
         .logo-ohmyfood-bottom{
