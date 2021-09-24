@@ -34,7 +34,6 @@
 
     .header-location-box{
         display: flex;
-        border: 2px solid #dbdbdb;
         background-color: #dbdbdb;
         width: 100%;
         height: 35px;
@@ -54,7 +53,6 @@
     }
 
     .top-sn2-part{
-        border: 2px solid #f2f2f2;
         background-color: #f2f2f2;
         width: 100%;
         height: 230px;
@@ -170,8 +168,8 @@
         border-radius: 50%;
         border: 2px solid #8b43b5;
         background-color: #8b43b5;
-        padding-left: 5px;
-        padding-right: 5px;
+        font-size: 15px;
+        padding: 8px;
         color: white;
         position: relative;
         top: 37px;
@@ -324,8 +322,8 @@
         }
 
         .fonction-number{
-            top: -35px;
-            right: -20px;
+            top: -10px;
+            right: -10px;
         }
 
         .title-restaurant-list{
