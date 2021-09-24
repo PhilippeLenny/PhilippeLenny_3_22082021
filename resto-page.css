@@ -133,10 +133,6 @@
         }
     }
 
-    .menu-description{
-        flex-direction: column;
-    }
-
     .food-name{
         margin-top: 11px;
         margin-bottom: 6px;
