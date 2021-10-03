@@ -5,18 +5,29 @@
     z-index: 1;
     background-color: white;
     display: flex;
-    width: 350px;
     justify-content: center;
     align-items: center;
+    animation: print 3s;
+    opacity: 0;
+    transition: opacity 5s;
 }
 
 .loader::after {
-    content: '\2026';
+    content: "\2026";
     display: inline-block;
     overflow: hidden;
     vertical-align: bottom;
-    animation: points steps(4, end) 1.50s infinite;
+    animation: points steps(4, end) 1.5s infinite;
     width: 0px;
+}
+
+@keyframes print {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
 }
 
 @keyframes points {
@@ -26,14 +37,14 @@
 }
 
 @keyframes color-change {
-    0% { 
-        color: #9356DC; 
+    0% {
+        color: #9356dc;
     }
-    50% { 
-        color: #FF79DA; 
+    50% {
+        color: #ff79da;
     }
 
     100% {
-        color: #99E2D0;
+        color: #99e2d0;
     }
 }
