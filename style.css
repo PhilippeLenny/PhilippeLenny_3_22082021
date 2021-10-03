@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap');
 .logo-ohmyfood-top, .logo-ohmyfood-bottom, .Restaurant-title{
     font-family: shrikhand;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap');
-
 
     .main{
         z-index: 0;
@@ -65,17 +62,21 @@
 
     .title-header{
         font-size: 22px;
-        font-weight: bold;
+        font-weight: 700;
         display: flex;
         justify-content: center;
         margin-bottom: 15px;
         padding-top: 30px;
+        font-family: Roboto;
     }
 
     .sub-title{
         display: flex;
         justify-content: center;
-        font-size: 17px;
+        font-size: 16px;
+        font-family: roboto;
+        font-weight: 400;
+        color: gray;
     }
 
 
@@ -84,7 +85,7 @@
         justify-content: center;
         color: white;
         margin-bottom: 15px;
-        font-size: 18px;
+        font-size: 16px;
         width: 100%;
     }
 
@@ -98,13 +99,17 @@
         display: flex;
         justify-content: center;
         padding: 15px;
+        font-family: Roboto;
+        font-weight: 400;
     }
 
     .title-fonctionnement{
-        font-size: 23px;
+        font-size: 21px;
         font-weight: bold;
         margin-left: 15px;
         margin-bottom: 20px;
+        font-family: Roboto;
+
     }
 
     .utilisation-step{
@@ -131,6 +136,8 @@
 
     .text-arrangement-black{
         color: black;
+        font-family: Roboto;
+        font-weight: 600;
     }
 
     .help-text{
@@ -154,10 +161,6 @@
         margin-right: 15px;
     }
 
-    .help-text-arrangement-top{
-        margin-right: 0px;
-    }
-
     .help-text-arrangement{
         margin-right: 22px;
     }
@@ -170,7 +173,7 @@
         border-radius: 50%;
         border: 2px solid #8b43b5;
         background-color: #8b43b5;
-        font-size: 15px;
+        font-size: 13px;
         padding-top: 5px;
         padding-bottom: 5px;
         padding-left: 8px;
@@ -179,13 +182,15 @@
         position: relative;
         top: 37px;
         right: 8px;
+        font-family: Roboto;
     }
 
     .title-restaurant-list{
         font-weight: bold;
-        font-size: 23px;
+        font-size: 21px;
         margin-left: 15px;
         margin-bottom: 20px;
+        font-family: Roboto;
     }
 
 
@@ -198,7 +203,6 @@
 
     .restaurant-box{
         width: 100%;
-        height: 228px;
         margin-bottom: 20px;
         box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.35);
         border-radius: 20px 20px 20px 20px;
@@ -223,14 +227,17 @@
     }
 
     .restaurant-name{
-        font-size: 18px;
+        font-size: 17px;
         font-weight: bold;
-        margin-top: 6px;
-        margin-bottom: 4px;
+        margin-top: 8px;
+        font-family: Roboto;
     }
 
     .restaurant-location{
         padding-bottom: 13px;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
     }
 
     .location-heart-space{
@@ -264,15 +271,11 @@
         color: #1a8a3c;
         padding: 3px;
         width: 60px;
+        font-family: Roboto;
+        font-size: 15px;
     }
 
     .new-location{
-        position: absolute;
-        bottom: 185px;
-        right: 22px;
-    }
-
-    .new-location-2{
         position: absolute;
         bottom: 185px;
         right: 22px;
@@ -286,6 +289,8 @@
     .footer-list{
         color: white;
         margin-left: 10px;
+        font-family: Roboto;
+        font-size: 15px;
     }
 
     .logo-ohmyfood-bottom{
