@@ -7,9 +7,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: print 3s;
+    animation: print 2.5s;
     opacity: 0;
-    transition: opacity 5s;
+    transition: opacity 1s;
 }
 
 .loader::after {
@@ -22,7 +22,10 @@
 }
 
 @keyframes print {
-    0% {
+    0%{
+        opacity: 100%;
+    }
+    50% {
         opacity: 100%;
     }
     100% {

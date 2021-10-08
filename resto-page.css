@@ -100,7 +100,6 @@
         cursor: pointer;
         display: flex;
         overflow: hidden;
-        display: flex;
         justify-content: space-between;
     }
 
