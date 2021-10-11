@@ -164,6 +164,7 @@
         margin-bottom: 10px;
         font-family: Roboto;
         font-size: 14px;
+        margin-left: auto;
     }
 
     .price-adjustement{
@@ -219,6 +220,12 @@
         cursor: pointer;
         font-family: Roboto;
         font-size: 16px;
+        transition: 300ms;
+    }
+
+    .command-button:hover{
+        background: linear-gradient(to bottom right, #ffa6e6, #a576de);
+        transform: scale(1.10);
     }
 
     .footer-box{

@@ -5,15 +5,15 @@
 }
 
     .main{
-        z-index: 0;
+        z-index: 10;
     }
 
     .header{
-        z-index: 0;
+        z-index: 10;
     }
 
     .loader{
-        z-index: 1;
+        z-index: 100;
         width: 100%;
         height: 100%;
         background-color: white;
@@ -101,6 +101,12 @@
         padding: 15px;
         font-family: Roboto;
         font-weight: 400;
+        transition: 300ms;
+    }
+
+    .explor-button-header:hover{
+        background: linear-gradient(to bottom right, #ffa6e6, #a576de);
+        transform: scale(1.10);
     }
 
     .title-fonctionnement{

@@ -1,15 +1,15 @@
 .loader {
     font-family: shrikhand;
     font-size: 35px;
-    animation: color-change 3s infinite alternate;
+    /* animation: color-change 3s infinite alternate; */
     z-index: 1;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: print 2.5s;
-    opacity: 0;
-    transition: opacity 1s;
+    animation-name: opac;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 .loader::after {
@@ -21,15 +21,17 @@
     width: 0px;
 }
 
-@keyframes print {
-    0%{
-        opacity: 100%;
-    }
+@keyframes opac {
     50% {
-        opacity: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+    70%{
+        opacity: 1;
     }
     100% {
-        opacity: 0%;
+        opacity: 0;
+        visibility: hidden;
     }
 }
 
