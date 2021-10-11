@@ -121,6 +121,7 @@
     .utilisation-step{
         margin-left: 15px;
         margin-right: 15px;
+        margin-bottom: 40px;
     }
 
     .step-box{
@@ -197,12 +198,15 @@
         margin-left: 15px;
         margin-bottom: 20px;
         font-family: Roboto;
+        padding-top: 20px;
     }
 
-
-
-
     .restaurant-list{
+        background-color: #f2f2f2;
+        padding-bottom: 10px;
+    }
+
+    .all-restaurant-box{
         margin-left: 15px;
         margin-right: 15px;
     }
@@ -223,13 +227,16 @@
     }
 
     .restaurant-info{
-        margin-left: 12px;
+        padding-left: 12px;
         text-decoration: none;
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
     }
 
     .black-link{
         text-decoration: none;
         color: black;
+        background-color: white;
     }
 
     .restaurant-name{
@@ -335,6 +342,7 @@
         .utilisation-step {
             display: flex;
             align-items: center;
+            margin-left: 0px;
         }
 
         .fonction-number{
@@ -346,11 +354,15 @@
             margin-bottom: 15px
         }
 
+        .restaurant-list{
+            background-color: white;
+            padding-bottom: 25px;
+        }
+
         .all-restaurant-box{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
-            margin-bottom: 30px;
         }
 
         .restaurant-box{
