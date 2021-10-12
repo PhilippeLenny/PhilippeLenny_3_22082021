@@ -1,14 +1,13 @@
 .loader {
     font-family: shrikhand;
     font-size: 35px;
-    /* animation: color-change 3s infinite alternate; */
     z-index: 1;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     animation-name: opac;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -22,9 +21,13 @@
 }
 
 @keyframes opac {
+    0% {
+        color: #9356dc;
+    }
     50% {
         opacity: 1;
         visibility: visible;
+        color: #ff79da;
     }
     70%{
         opacity: 1;
@@ -32,24 +35,12 @@
     100% {
         opacity: 0;
         visibility: hidden;
+        color: #99e2d0;
     }
 }
 
 @keyframes points {
     to {
         width: 1em;
-    }
-}
-
-@keyframes color-change {
-    0% {
-        color: #9356dc;
-    }
-    50% {
-        color: #ff79da;
-    }
-
-    100% {
-        color: #99e2d0;
     }
 }
