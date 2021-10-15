@@ -145,6 +145,7 @@
         overflow: hidden;
         text-overflow: ellipsis;
         font-family: Roboto;
+        line-height: 1.2em;
     }
 
     .descriptif-plat{
@@ -157,6 +158,7 @@
         font-family: Roboto;
         font-weight: 400;
         font-size: 14px;
+        line-height: 1.1em;
     }
 
     .food-price{
